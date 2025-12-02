@@ -1,130 +1,25 @@
-# 2025.2.2.3-atividade-grid
-Atividade avaliativa sobre grid layout (CSS3)
+# Portfólio — Atividade Grid (2025.2.2.3)
 
-## 📋 Objetivo
-Criar uma página de portfólio pessoal responsiva em HTML5 e CSS3, utilizando **CSS Grid Layout**, seguindo os layouts de referência fornecidos.
+Projeto de avaliação sobre CSS Grid Layout. Arquivos incluídos:
 
-## 🎨 Layouts de Referência
-- **Mobile:** [images/figma-portifolio-mobile.png](images/figma-portifolio-mobile.png)
-- **Desktop:** [images/figma-portifolio-desktop.png](images/figma-portifolio-desktop.png)
+- `index.html` — Estrutura HTML5 semântica e seções obrigatórias.
+- `css/portifolio.css` — Estilos CSS (mobile-first) com Grid e breakpoints.
+- `images/` — Placeholders SVG para avatar e projetos.
 
-## ✅ Checklist da Atividade
+Como testar localmente:
 
-### 1. Estrutura HTML5
-- [ ] Criar arquivo `index.html` com estrutura HTML5 semântica
-- [ ] Utilizar tags semânticas (`<header>`, `<main>`, `<section>`, `<footer>`, etc.)
-- [ ] Adicionar meta tags para responsividade (`viewport`)
-- [ ] Incluir título apropriado na tag `<title>`
+1. Abra o arquivo `index.html` no navegador (duplo-clique ou arraste para a janela do navegador).
+2. Para testar responsividade, abra as Ferramentas de Desenvolvedor (F12) e altere o tamanho da tela.
+3. Recomendado: usar um servidor local simples se quiser testes de links (ex.: `python -m http.server 8000`).
 
-### 2. Seções Obrigatórias
+Checklist exigido (implementado):
 
-#### 2.1 Cabeçalho/Apresentação
-- [ ] Criar seção com seu nome e foto/avatar
-- [ ] Adicionar breve descrição profissional
-- [ ] Incluir navegação e deixar fixo no topo ou na base
+- Estrutura HTML5 semântica: header, main, section, footer.
+- Seções: Cabeçalho/Apresentação, Principais Projetos, Skills, Sobre/Interesses, Redes Sociais.
+- CSS Grid: usado nas seções de projetos e skills; propriedades `display: grid`, `grid-template-columns`, `gap`.
+- Responsividade: mobile-first, breakpoints em `768px` e `1024px`.
+- Boas práticas: variáveis CSS, tipografia via Google Fonts, organização de arquivos.
 
-#### 2.2 Principais Trabalhos
-- [ ] Criar seção "Principais Projetos"
-- [ ] Exibir pelo menos 3-6 projetos (pode ser de disciplinas atuais)
-- [ ] Cada projeto deve conter:
-  - [ ] Imagem ou thumbnail
-  - [ ] Título do projeto
-  - [ ] Breve descrição
-  - [ ] Link (pode ser fictício)
+Possíveis diferenciais a adicionar (extras): animações, tema claro/escuro, formulário de contato, scroll suave.
 
-#### 2.3 Habilidades
-- [ ] Criar seção "Skills"
-- [ ] Listar tecnologias/ferramentas que domina
-- [ ] Utilizar ícones ou cards visuais
-- [ ] Organizar de forma visual e atrativa
-
-#### 2.4 Interesses Pessoais
-- [ ] Criar seção "Sobre Mim" ou "Interesses"
-- [ ] Adicionar hobbies e interesses pessoais
-- [ ] Apresentar de forma criativa
-
-#### 2.5 Redes Sociais
-- [ ] Criar seção com links para redes sociais
-- [ ] Incluir pelo menos 3 redes (GitHub e LinkedIn, e outros como Instagram, tik-tok, x, entre outros)
-- [ ] Utilizar ícones para cada rede social
-- [ ] Links funcionais (podem apontar para perfis reais ou fictícios)
-
-### 3. Estilização CSS3
-
-#### 3.1 CSS Grid Layout
-- [ ] Criar arquivo `portifolio.css` vinculado ao HTML
-- [ ] Utilizar **CSS Grid** para layout principal da página
-- [ ] Aplicar Grid nas seções de projetos e habilidades
-- [ ] Demonstrar uso de propriedades:
-  - [ ] `display: grid`
-  - [ ] `grid-template-columns`
-  - [ ] `grid-template-rows`
-  - [ ] `gap` ou `grid-gap`
-  - [ ] `grid-template-areas` (opcional)
-
-#### 3.2 Design Responsivo
-- [ ] Implementar layout mobile-first
-- [ ] Criar breakpoint para tablet (mínimo 768px)
-- [ ] Criar breakpoint para desktop (mínimo 1024px)
-- [ ] Utilizar `@media queries` para ajustar o grid
-- [ ] Testar em diferentes tamanhos de tela
-
-#### 3.3 Estilização Visual
-- [ ] Definir paleta de cores harmônica
-- [ ] Escolher tipografia adequada (Google Fonts recomendado)
-- [ ] Aplicar espaçamentos consistentes
-- [ ] Adicionar estados hover nos elementos interativos
-- [ ] Garantir boa legibilidade e contraste
-
-### 4. Boas Práticas
-
-#### 4.1 Código
-- [ ] Utilizar indentação consistente
-- [ ] Comentar seções do código quando necessário
-- [ ] Nomear classes de forma semântica (BEM recomendado)
-- [ ] Validar HTML no [W3C Validator](https://validator.w3.org/)
-
-#### 4.2 Organização
-- [ ] Organizar arquivos em estrutura clara:
-  ```
-  /
-  ├── index.html
-  ├── css/
-  │   └── portifolio.css
-  ├── images/
-  │   └── [suas imagens]
-  └── README.md
-  ```
-
-### 5. Diferenciais (Opcional)
-- [ ] Adicionar animações CSS
-- [ ] Implementar tema claro/escuro
-- [ ] Adicionar seção de contato com formulário
-- [ ] Utilizar variáveis CSS (Custom Properties)
-- [ ] Adicionar favicon personalizado
-- [ ] Implementar scroll suave entre seções
-
-### 6. Entrega
-- [ ] Testar página em diferentes navegadores
-- [ ] Verificar responsividade em dispositivos reais ou usar F12 no navegador
-- [ ] Fazer commit no repositório Git
-
-## 📚 Recursos Úteis
-- [CSS Grid Guide - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [MDN - CSS Grid Layout](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout)
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](https://fontawesome.com/) - Para ícones
-- [Unsplash](https://unsplash.com/) - Para imagens de projetos
-
-## 🎯 Critérios de Avaliação
-- **Uso correto de CSS Grid** (30%)
-- **Responsividade** (25%)
-- **Fidelidade aos layouts de referência** (20%)
-- **Qualidade do código HTML/CSS** (15%)
-- **Criatividade e design** (10%)
-
----
-
-**Prazo de entrega:** FIXME
-
----
+Licença: Este repositório foi criado como exercício escolar/avaliativo.

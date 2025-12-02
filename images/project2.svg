@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="100%" height="100%" fill="#071025" rx="12"/>
+  <rect x="32" y="32" width="736" height="118" rx="8" fill="#062433" />
+  <rect x="32" y="168" width="420" height="230" rx="8" fill="#07222e" />
+  <text x="56" y="86" fill="#9fb6d6" font-size="28" font-family="Inter, Arial">Projeto B</text>
+</svg>
